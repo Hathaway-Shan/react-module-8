@@ -8,6 +8,7 @@ header ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  color: rgb(127, 255, 0);
 }
 
 header li {
