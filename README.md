@@ -41,7 +41,7 @@ function App() {
 
 ### Use Params
 
-- in order to properly utilize the UseParams hook from React to get our color value we will have to send up the color value as part of 
+- in order to properly utilize the UseParams hook from React to get our color value we will have to send up the color value as part of
 Params so that it can be destructured in the relevant component ie:
 
 ```js

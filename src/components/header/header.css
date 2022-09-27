@@ -1,0 +1,18 @@
+header {
+  height: 40px;
+  background-color: ghostwhite;
+  padding-left: 20px;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header li {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
