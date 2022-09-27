@@ -1,19 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './header.css';
-import RGB from '../rgb/rgb';
 
 export default function Header() {
   return (
     <header>
       <ul>
         <li>
-          <NavLink className="blue" to="/rgb/127/255/0">
+          <NavLink className="blue" to="/rgb/0/0/255">
             Blue
           </NavLink>
         </li>
         <li>
-          <NavLink className="blueViolet" to="/rgb/127/255/0">
+          <NavLink className="blueViolet" to="/rgb/138/43/226">
             BlueViolet
           </NavLink>
         </li>
