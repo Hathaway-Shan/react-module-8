@@ -4,6 +4,7 @@ import React from 'react';
 import Header from './components/header/header';
 import RGB from './components/rgb/rgb';
 import NotFound from './components/notFound/notFound';
+import Home from './components/home/home';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Header />
       <div className="switchBox">
         <Switch>
-          <Route path="/rgb/:r/:g/:b" component={RGB}></Route>
+          <Route exact path="/rgb/:r/:g/:b" component={RGB}></Route>
+          <Route exact path="/" component={Home}></Route>
           <Route path="*" component={NotFound}></Route>
         </Switch>
       </div>
