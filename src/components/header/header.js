@@ -5,23 +5,23 @@ import './header.css';
 export default function Header() {
   return (
     <header>
-      <ul>
-        <li>
-          <NavLink className="blue" to="/rgb/0/0/255">
+      <nav>
+        <div>
+          <NavLink className="link" to="/rgb/0/0/255">
             Blue
           </NavLink>
-        </li>
-        <li>
-          <NavLink className="blueViolet" to="/rgb/138/43/226">
+        </div>
+        <div>
+          <NavLink className="link" to="/rgb/138/43/226">
             BlueViolet
           </NavLink>
-        </li>
-        <li>
-          <NavLink className="chartreuse" to="/rgb/127/255/0">
+        </div>
+        <div>
+          <NavLink className="link" to="/rgb/127/255/0">
             Chartreuse
           </NavLink>
-        </li>
-      </ul>
+        </div>
+      </nav>
     </header>
   );
 }

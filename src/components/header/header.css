@@ -4,15 +4,16 @@ header {
   padding-left: 20px;
 }
 
-header ul {
+nav {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
-header li {
-  margin: 1rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+nav .link {
+  margin: 10px;
+}
+
+nav a.active {
+  text-decoration: none;
+  font-weight: bold;
 }
