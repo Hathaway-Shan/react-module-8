@@ -1,3 +1,4 @@
+import './rgb.css';
 import { useParams } from 'react-router-dom';
 
 export default function RGB() {
